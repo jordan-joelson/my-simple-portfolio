@@ -1,15 +1,18 @@
 import { PortfolioContainer } from '@/components/PortfolioContainer';
-import { PortfolioHeader } from '@/components/PortfolioHeader';
+import { PortfolioHero } from '@/components/PortfolioHeader';
+import { AboutSection } from '@/components/AboutSection';
+import { BlogSection } from '@/components/BlogSection';
+import { PortfolioFooter } from '@/components/PortfolioFooter';
 
 const Index = () => {
   return (
     <PortfolioContainer>
-      <PortfolioHeader />
-      <main>
-        <p className="text-notebook-text font-body leading-relaxed">
-          Hello — this is my minimalist portfolio. Built like a notebook. Clean and focused.
-        </p>
-      </main>
+      <PortfolioHero />
+      <div className="flex-1 flex flex-col justify-center space-y-4">
+        <AboutSection />
+        <BlogSection />
+      </div>
+      <PortfolioFooter />
     </PortfolioContainer>
   );
 };
