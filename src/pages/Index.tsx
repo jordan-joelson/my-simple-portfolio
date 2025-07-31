@@ -1,13 +1,16 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+import { PortfolioContainer } from '@/components/PortfolioContainer';
+import { PortfolioHeader } from '@/components/PortfolioHeader';
 
 const Index = () => {
   return (
-    <div className="min-h-screen flex items-center justify-center bg-background">
-      <div className="text-center">
-        <h1 className="text-4xl font-bold mb-4">Welcome to Your Blank App</h1>
-        <p className="text-xl text-muted-foreground">Start building your amazing project here!</p>
-      </div>
-    </div>
+    <PortfolioContainer>
+      <PortfolioHeader />
+      <main>
+        <p className="text-notebook-text font-body leading-relaxed">
+          Hello — this is my minimalist portfolio. Built like a notebook. Clean and focused.
+        </p>
+      </main>
+    </PortfolioContainer>
   );
 };
 
