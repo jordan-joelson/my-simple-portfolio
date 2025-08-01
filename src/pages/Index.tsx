@@ -2,6 +2,7 @@ import { PortfolioContainer } from '@/components/PortfolioContainer';
 import { PortfolioHero } from '@/components/PortfolioHeader';
 import { NewsletterSection } from '@/components/NewsletterSection';
 import { SocialLinks } from '@/components/SocialLinks';
+import { AboutSection } from '@/components/AboutSection';
 import { BlogSection } from '@/components/BlogSection';
 import { ProjectsSection } from '@/components/ProjectsSection';
 import { PortfolioFooter } from '@/components/PortfolioFooter';
@@ -13,7 +14,8 @@ const Index = () => {
         <PortfolioHero />
         <NewsletterSection />
         <SocialLinks />
-        <div className="mt-8">
+        <AboutSection />
+        <div className="mt-6">
           <BlogSection />
           <ProjectsSection />
         </div>
