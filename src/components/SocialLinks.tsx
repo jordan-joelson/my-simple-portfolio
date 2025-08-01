@@ -1,9 +1,9 @@
 export const SocialLinks = () => {
   const socialLinks = [
-    { name: 'LinkedIn', href: '#' },
-    { name: 'GitHub', href: '#' },
-    { name: 'Instagram', href: '#' },
-    { name: 'Email', href: 'mailto:' }
+    { name: 'LinkedIn', href: 'https://www.linkedin.com/in/jordanjoelson/' },
+    { name: 'GitHub', href: 'https://github.com/jordanjoelson' },
+    { name: 'Instagram', href: 'https://www.instagram.com/jordanjoelson/' },
+    { name: 'Email', href: 'mailto:jordan@jordanjoelson.com' }
   ];
 
   return (

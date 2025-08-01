@@ -84,10 +84,5 @@ All colors MUST be HSL.
 
   body {
     @apply bg-background text-foreground;
-    /* Visible notebook lines pattern */
-    background-image: 
-      linear-gradient(to right, hsl(var(--notebook-border) / 0.15) 1px, transparent 1px),
-      linear-gradient(to bottom, hsl(var(--notebook-border) / 0.15) 1px, transparent 1px);
-    background-size: 24px 24px;
   }
 }
