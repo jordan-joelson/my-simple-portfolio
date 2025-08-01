@@ -84,18 +84,10 @@ All colors MUST be HSL.
 
   body {
     @apply bg-background text-foreground;
-    /* Subtle notebook texture - very light dot pattern */
-    background-image: radial-gradient(circle, hsl(var(--notebook-border) / 0.03) 1px, transparent 1px);
-    background-size: 20px 20px;
-  }
-}
-
-@layer components {
-  /* Subtle link hover animation - underline grow effect */
-  .link-hover {
-    @apply relative inline-block;
-    @apply after:content-[''] after:absolute after:w-full after:scale-x-0 after:h-px after:bottom-0 after:left-0;
-    @apply after:bg-notebook-text after:origin-bottom-right after:transition-transform after:duration-300 after:ease-out;
-    @apply hover:after:scale-x-100 hover:after:origin-bottom-left;
+    /* More visible notebook texture - light lines pattern */
+    background-image: 
+      linear-gradient(to right, hsl(var(--notebook-border) / 0.08) 1px, transparent 1px),
+      linear-gradient(to bottom, hsl(var(--notebook-border) / 0.08) 1px, transparent 1px);
+    background-size: 25px 25px;
   }
 }
