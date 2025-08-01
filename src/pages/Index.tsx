@@ -3,6 +3,7 @@ import { PortfolioHero } from '@/components/PortfolioHeader';
 import { NewsletterSection } from '@/components/NewsletterSection';
 import { SocialLinks } from '@/components/SocialLinks';
 import { BlogSection } from '@/components/BlogSection';
+import { ProjectsSection } from '@/components/ProjectsSection';
 import { PortfolioFooter } from '@/components/PortfolioFooter';
 
 const Index = () => {
@@ -14,6 +15,7 @@ const Index = () => {
         <SocialLinks />
         <div className="mt-8">
           <BlogSection />
+          <ProjectsSection />
         </div>
       </div>
       <PortfolioFooter />
