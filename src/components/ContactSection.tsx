@@ -14,12 +14,12 @@ export const ContactSection = () => {
         </a>
         <span className="text-notebook-text opacity-40">or</span>
         <a 
-          href="https://twitter.com/jordanjoelson" 
+          href="https://twitter.com/jordan_joelson" 
           target="_blank" 
           rel="noopener noreferrer"
           className="text-notebook-text no-underline border-b border-dotted border-current hover:border-solid transition-all text-sm"
         >
-          @jordanjoelson
+          @jordan_joelson
         </a>
       </div>
     </section>

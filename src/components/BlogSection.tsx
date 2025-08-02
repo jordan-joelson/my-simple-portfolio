@@ -1,8 +1,6 @@
 export const BlogSection = () => {
   const posts = [
-    "How Simplicity Wins",
-    "Rethinking Portfolio Design", 
-    "Tools I Actually Use"
+    "My First Blog"
   ];
 
   return (

@@ -5,7 +5,7 @@ export const PortfolioFooter = () => {
     <footer className="flex justify-between items-center text-sm">
       <p className="text-notebook-text font-body">
         © 2025 Jordan Joelson — <a 
-          href="#" 
+          href="/rss.xml" 
           className="text-notebook-text no-underline border-b border-dashed border-current"
         >
           RSS

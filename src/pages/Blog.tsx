@@ -5,29 +5,9 @@ import { PortfolioFooter } from '@/components/PortfolioFooter';
 const Blog = () => {
   const posts = [
     {
-      title: "How Simplicity Wins",
-      date: "2024-01-15",
-      excerpt: "Why removing features often makes products better..."
-    },
-    {
-      title: "Rethinking Portfolio Design", 
-      date: "2024-01-08",
-      excerpt: "Moving away from flashy animations to focus on content..."
-    },
-    {
-      title: "Tools I Actually Use",
-      date: "2024-01-02",
-      excerpt: "A honest look at my daily development workflow..."
-    },
-    {
-      title: "The Notebook Method",
-      date: "2023-12-20",
-      excerpt: "Why I design interfaces like handwritten notes..."
-    },
-    {
-      title: "Building for Clarity",
-      date: "2023-12-12",
-      excerpt: "How constraints lead to better design decisions..."
+      title: "My First Blog",
+      date: "2025-01-15",
+      excerpt: "Welcome to my blog where I'll share thoughts on design, development, and building meaningful products..."
     }
   ];
 
