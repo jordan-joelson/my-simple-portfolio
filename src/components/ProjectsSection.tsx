@@ -31,7 +31,7 @@ export const ProjectsSection = () => {
             </a>
             {project.description && (
               <p className="text-notebook-text text-sm ml-4 mt-1 leading-relaxed">
-                — {project.description}
+                – {project.description}
               </p>
             )}
           </div>

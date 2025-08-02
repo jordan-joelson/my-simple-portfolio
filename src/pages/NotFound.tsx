@@ -1,26 +1,23 @@
-import { useLocation } from "react-router-dom";
-import { useEffect } from "react";
+import { PortfolioContainer } from '@/components/PortfolioContainer';
 
 const NotFound = () => {
-  const location = useLocation();
-
-  useEffect(() => {
-    console.error(
-      "404 Error: User attempted to access non-existent route:",
-      location.pathname
-    );
-  }, [location.pathname]);
-
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gray-100">
-      <div className="text-center">
-        <h1 className="text-4xl font-bold mb-4">404</h1>
-        <p className="text-xl text-gray-600 mb-4">Oops! Page not found</p>
-        <a href="/" className="text-blue-500 hover:text-blue-700 underline">
-          Return to Home
+    <PortfolioContainer>
+      <div className="flex-1 flex flex-col items-center justify-center text-center">
+        <h1 className="font-handwritten text-4xl lg:text-5xl text-handwritten mb-4">
+          Not Found
+        </h1>
+        <p className="text-notebook-text font-body mb-6">
+          This page doesn't exist.
+        </p>
+        <a 
+          href="/" 
+          className="text-notebook-text no-underline border-b border-dotted border-current hover:border-solid transition-all font-body"
+        >
+          ← Back home
         </a>
       </div>
-    </div>
+    </PortfolioContainer>
   );
 };
 
