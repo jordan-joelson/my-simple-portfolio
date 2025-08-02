@@ -5,6 +5,7 @@ import { SocialLinks } from '@/components/SocialLinks';
 import { AboutSection } from '@/components/AboutSection';
 import { BlogSection } from '@/components/BlogSection';
 import { ProjectsSection } from '@/components/ProjectsSection';
+import { ContactSection } from '@/components/ContactSection';
 import { PortfolioFooter } from '@/components/PortfolioFooter';
 
 const Index = () => {
@@ -18,6 +19,7 @@ const Index = () => {
         <div className="mt-6">
           <BlogSection />
           <ProjectsSection />
+          <ContactSection />
         </div>
       </div>
       <PortfolioFooter />
