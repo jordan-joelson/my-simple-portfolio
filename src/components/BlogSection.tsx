@@ -18,7 +18,7 @@ export const BlogSection = () => {
         {posts.map((post, index) => (
           <li key={index} className="mb-1.5">
             <a 
-              href="#" 
+              href="/blog/my-first-blog" 
               className="text-notebook-text no-underline border-b border-dotted border-current hover:border-solid transition-all"
             >
               {post}

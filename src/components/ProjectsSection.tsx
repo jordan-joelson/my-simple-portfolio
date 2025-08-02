@@ -2,18 +2,18 @@ export const ProjectsSection = () => {
   const projects = [
     {
       name: "Microvault",
-      description: "",
-      href: "#"
+      description: "Collateralized crypto loans. Borrow and lend securely.",
+      href: "https://github.com/veermshah/MicroVault"
     },
     {
       name: "Realvo",
       description: "REIT forecasting, backed by research and real-world data.",
-      href: "#"
+      href: "/Realvo.pdf"
     },
     {
       name: "Jupiter", 
       description: "Helping students find meaningful ways to get involved on campus.",
-      href: "#"
+      href: "https://github.com/UTDNebula/jupiter"
     }
   ];
 
@@ -23,18 +23,15 @@ export const ProjectsSection = () => {
       <div className="space-y-3">
         {projects.map((project, index) => (
           <div key={index}>
-            <div className="flex items-center gap-2">
-              <span className="text-notebook-text">→</span>
-              <a 
-                href={project.href} 
-                className="text-notebook-text no-underline border-b border-dotted border-current hover:border-solid transition-all font-medium"
-              >
-                {project.name}
-              </a>
-            </div>
+            <a 
+              href={project.href} 
+              className="text-notebook-text no-underline border-b border-dotted border-current hover:border-solid transition-all"
+            >
+              {project.name}
+            </a>
             {project.description && (
               <p className="text-notebook-text text-sm ml-4 mt-1 leading-relaxed">
-                {project.description}
+                — {project.description}
               </p>
             )}
           </div>
