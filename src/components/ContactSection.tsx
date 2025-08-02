@@ -1,9 +1,9 @@
 export const ContactSection = () => {
   return (
-    <section className="mt-6 pt-4 border-t border-notebook-border">
-      <h2 className="text-lg mb-2 text-notebook-text font-body">Let's chat</h2>
+    <section className="mt-6 pt-4 pb-4 border-t border-b border-notebook-border">
+      <h2 className="text-lg mb-2 text-notebook-text font-body">Let's chat ☕</h2>
       <p className="text-notebook-text font-body leading-relaxed mb-4">
-        Bring your ideas to life — always excited to collaborate on interesting projects.
+        Bring your ideas to life. Always excited to collaborate on interesting projects.
       </p>
       <div className="flex items-center gap-4">
         <a 
