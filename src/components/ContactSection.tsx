@@ -7,7 +7,7 @@ export const ContactSection = () => {
       </p>
       <div className="flex items-center gap-4">
         <a 
-          href="mailto:hello@jordanjoelson.com" 
+          href="mailto:jordan@jordanjoelson.com" 
           className="inline-flex items-center gap-2 px-3 py-1.5 border border-notebook-border text-notebook-text no-underline hover:bg-notebook-text hover:text-notebook-bg transition-colors text-sm"
         >
           Email me
