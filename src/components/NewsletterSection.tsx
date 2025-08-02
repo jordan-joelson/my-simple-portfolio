@@ -18,13 +18,14 @@ export const NewsletterSection = () => {
           type="email"
           value={email}
           onChange={(e) => setEmail(e.target.value)}
-          placeholder="your@email.com"
-          className="flex-1 px-3 py-1.5 border border-notebook-border bg-notebook-bg text-notebook-text text-sm focus:outline-none focus:ring-1 focus:ring-notebook-border"
-          required
+          placeholder="coming soon..."
+          className="flex-1 px-3 py-1.5 border border-notebook-border bg-notebook-bg text-notebook-text text-sm focus:outline-none focus:ring-1 focus:ring-notebook-border opacity-60"
+          disabled
         />
         <button
           type="submit"
-          className="px-4 py-1.5 bg-notebook-text text-notebook-bg border border-notebook-border text-sm hover:bg-notebook-bg hover:text-notebook-text transition-colors"
+          className="px-4 py-1.5 bg-notebook-text text-notebook-bg border border-notebook-border text-sm opacity-60 cursor-not-allowed"
+          disabled
         >
           Subscribe
         </button>
