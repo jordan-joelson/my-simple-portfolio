@@ -25,6 +25,8 @@ export const ProjectsSection = () => {
           <div key={index}>
             <a 
               href={project.href} 
+              target="_blank"
+              rel="noopener noreferrer"
               className="text-notebook-text no-underline border-b border-dotted border-current hover:border-solid transition-all"
             >
               {project.name}
