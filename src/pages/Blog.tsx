@@ -6,7 +6,7 @@ const Blog = () => {
   const posts = [
     {
       title: "My First Blog",
-      date: "2025-01-15",
+      date: "2025-08-02",
       excerpt: "Welcome to my blog where I'll share thoughts on design, development, and building meaningful products..."
     }
   ];
@@ -33,7 +33,7 @@ const Blog = () => {
                 <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-1 mb-1">
                   <h2 className="text-lg text-notebook-text font-body">
                     <a 
-                      href="#" 
+                      href="/blog/my-first-blog" 
                       className="no-underline border-b border-dotted border-current hover:border-solid transition-all"
                     >
                       {post.title}
