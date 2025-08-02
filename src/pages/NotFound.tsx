@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import { PortfolioContainer } from '@/components/PortfolioContainer';
 
 const NotFound = () => {
@@ -10,12 +11,12 @@ const NotFound = () => {
         <p className="text-notebook-text font-body mb-6">
           This page doesn't exist.
         </p>
-        <a 
-          href="/" 
+        <Link 
+          to="/" 
           className="text-notebook-text no-underline border-b border-dotted border-current hover:border-solid transition-all font-body"
         >
           ← Back home
-        </a>
+        </Link>
       </div>
     </PortfolioContainer>
   );
