@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import { PortfolioContainer } from '@/components/PortfolioContainer';
+import { PortfolioFooter } from '@/components/PortfolioFooter';
 
 const NotFound = () => {
   return (
@@ -18,6 +19,7 @@ const NotFound = () => {
           ← Back home
         </Link>
       </div>
+      <PortfolioFooter />
     </PortfolioContainer>
   );
 };

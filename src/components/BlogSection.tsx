@@ -16,12 +16,12 @@ export const BlogSection = () => {
           View all →
         </Link>
       </div>
-      <ul className="list-none p-0">
+      <ul className="list-none p-0 m-0">
         {posts.map((post, index) => (
-          <li key={index} className="mb-1.5">
+          <li key={index} className="mb-1.5 list-none">
             <Link 
               to="/blog/my-first-blog" 
-              className="text-notebook-text no-underline border-b border-dotted border-current hover:border-solid transition-all leading-tight"
+              className="text-notebook-text no-underline border-b border-dotted border-current hover:border-solid transition-all leading-tight inline-block"
             >
               {post}
             </Link>
