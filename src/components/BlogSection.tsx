@@ -21,7 +21,7 @@ export const BlogSection = () => {
           <li key={index} className="mb-1.5">
             <Link 
               to="/blog/my-first-blog" 
-              className="text-notebook-text no-underline border-b border-dotted border-current hover:border-solid transition-all"
+              className="text-notebook-text no-underline border-b border-dotted border-current hover:border-solid transition-all leading-tight"
             >
               {post}
             </Link>
