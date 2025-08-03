@@ -16,18 +16,18 @@ export const BlogSection = () => {
           View all →
         </Link>
       </div>
-      <ul className="list-none p-0 m-0">
+      <div>
         {posts.map((post, index) => (
-          <li key={index} className="mb-1.5 list-none">
+          <div key={index} className="mb-1.5">
             <Link 
               to="/blog/my-first-blog" 
               className="text-notebook-text no-underline border-b border-dotted border-current hover:border-solid transition-all leading-tight inline-block"
             >
               {post}
             </Link>
-          </li>
+          </div>
         ))}
-      </ul>
+      </div>
     </section>
   );
 };
