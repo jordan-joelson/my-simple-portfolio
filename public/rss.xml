@@ -1,3 +1,4 @@
+
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
@@ -16,7 +17,9 @@
     
     <item>
       <title>My First Blog</title>
-      <description>nothing here yet.......</description>
+      <description><![CDATA[
+        <p>nothing here yet.......</p>
+      ]]></description>
       <link>https://jordanjoelson.com/blog/my-first-blog</link>
       <guid>https://jordanjoelson.com/blog/my-first-blog</guid>
       <pubDate>Wed, 15 Jan 2025 00:00:00 GMT</pubDate>
