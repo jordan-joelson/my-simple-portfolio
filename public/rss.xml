@@ -8,10 +8,16 @@
     <lastBuildDate>Wed, 15 Jan 2025 00:00:00 GMT</lastBuildDate>
     <atom:link href="https://jordanjoelson.com/rss.xml" rel="self" type="application/rss+xml"/>
     
+    <image>
+      <url>https://jordanjoelson.com/favicon.png</url>
+      <title>Jordan Joelson - Blog</title>
+      <link>https://jordanjoelson.com</link>
+    </image>
+    
     <item>
       <title>My First Blog</title>
-      <description>Welcome to my blog where I'll share thoughts on design, development, and building meaningful products...</description>
-      <link>https://jordanjoelson.com/blog</link>
+      <description>nothing here yet.......</description>
+      <link>https://jordanjoelson.com/blog/my-first-blog</link>
       <guid>https://jordanjoelson.com/blog/my-first-blog</guid>
       <pubDate>Wed, 15 Jan 2025 00:00:00 GMT</pubDate>
     </item>
