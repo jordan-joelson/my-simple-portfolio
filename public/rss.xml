@@ -9,7 +9,7 @@
     <atom:link href="https://jordanjoelson.com/rss.xml" rel="self" type="application/rss+xml"/>
     
     <image>
-      <url>https://jordanjoelson.com/favicon.png?v=2</url>
+      <url>https://jordanjoelson.com/favicon.png</url>
       <title>Jordan Joelson - Blog</title>
       <link>https://jordanjoelson.com</link>
     </image>
